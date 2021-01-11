@@ -6,11 +6,11 @@
 //  Copyright © 2020 imac. All rights reserved.
 //
 
-#import <GLKit/GLKit.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZYPDrawingBoardViewController : GLKViewController
+@interface ZYPDrawingBoardViewController : UIViewController
 
 @end
 

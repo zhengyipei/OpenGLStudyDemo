@@ -44,11 +44,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //1.UI实现
+    self.navigationItem.title = @"画板";
     [self setUpUI];
 }
 
 - (void)setUpUI
 {
+    
+    UIButton*clearBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    clearBtn.frame = CGRectMake(0, 0, 50, 44);
+    [clearBtn setTitle:@"清屏" forState:UIControlStateNormal];
+    [clearBtn addTarget:self action:@selector(clearAction) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:clearBtn];
+    
     //1.数组存储颜色选择的图片
     UIImage *redImag = [[UIImage imageNamed:@"Red"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIImage *yellowImag = [[UIImage imageNamed:@"Yellow"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -100,6 +108,9 @@
     selectSound = [[ZYPDrawingBoardSoundEffect alloc]initWithContentsOfFile:selectPath];
     
     
+}
+- (void)clearAction{
+    [(ZYPDrawingBoardView *)self.view erase];
 }
 
 //改变画笔颜色

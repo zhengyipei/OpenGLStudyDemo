@@ -13,7 +13,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZYPPoint : UIView
+@interface ZYPPoint : NSObject
 
 //屏幕上的点（x,y）
 @property (nonatomic , strong) NSNumber* mY;
