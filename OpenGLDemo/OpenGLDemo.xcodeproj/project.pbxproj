@@ -19,6 +19,13 @@
 		884B50722587625F00B2824A /* abc.string in Resources */ = {isa = PBXBuildFile; fileRef = 884B506A2587625F00B2824A /* abc.string */; };
 		884B50732587625F00B2824A /* Erase.caf in Resources */ = {isa = PBXBuildFile; fileRef = 884B506C2587625F00B2824A /* Erase.caf */; };
 		884B50742587625F00B2824A /* shaderUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 884B506D2587625F00B2824A /* shaderUtil.c */; };
+		885DB24A25B93A2700FE486E /* ZYPImageColorTemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DB24925B93A2700FE486E /* ZYPImageColorTemperatureViewController.m */; };
+		885DB24E25B93A4000FE486E /* ZYPGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DB24D25B93A4000FE486E /* ZYPGLView.m */; };
+		885DB25225B93A5400FE486E /* ZYPContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DB25125B93A5400FE486E /* ZYPContainerView.m */; };
+		885DB25525B9721600FE486E /* ImageVertexShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 885DB25425B9721600FE486E /* ImageVertexShader.vsh */; };
+		885DB25925B9723A00FE486E /* ImageSaturation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 885DB25825B9723A00FE486E /* ImageSaturation.fsh */; };
+		885DB25C25B9724D00FE486E /* ImageTemperature.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 885DB25B25B9724D00FE486E /* ImageTemperature.fsh */; };
+		885DB25F25BAD37100FE486E /* Lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 885DB25E25BAD37100FE486E /* Lena.png */; };
 		88C4DAAE25AD545000ECC1FD /* ZYPEarthAndModnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DAAD25AD545000ECC1FD /* ZYPEarthAndModnViewController.m */; };
 		88C4DAB625AD554700ECC1FD /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DAB525AD554700ECC1FD /* AGLKVertexAttribArrayBuffer.m */; };
 		88C4DABD25AD556800ECC1FD /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DAB925AD556700ECC1FD /* Earth512x256.jpg */; };
@@ -26,6 +33,21 @@
 		88C4DABF25AD556800ECC1FD /* Moon256x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DABB25AD556800ECC1FD /* Moon256x128.png */; };
 		88C4DACF25AEF66F00ECC1FD /* ZYPLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DACE25AEF66F00ECC1FD /* ZYPLightViewController.m */; };
 		88C4DAD325AEF75900ECC1FD /* sceneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DAD225AEF75900ECC1FD /* sceneUtil.m */; };
+		88C4DAE025B0310800ECC1FD /* skybox2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DADD25B0310800ECC1FD /* skybox2.png */; };
+		88C4DAE125B0310800ECC1FD /* skybox3.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DADE25B0310800ECC1FD /* skybox3.png */; };
+		88C4DAE225B0310800ECC1FD /* skybox1.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DADF25B0310800ECC1FD /* skybox1.png */; };
+		88C4DAE725B0313600ECC1FD /* starship.c in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DAE525B0313600ECC1FD /* starship.c */; };
+		88C4DAEB25B0317A00ECC1FD /* ZYPSkyBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DAEA25B0317A00ECC1FD /* ZYPSkyBoxViewController.m */; };
+		88C4DAF325B031B300ECC1FD /* SkyBoxShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DAF225B031B300ECC1FD /* SkyBoxShader.vsh */; };
+		88C4DAF625B031C000ECC1FD /* SkyBoxShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DAF525B031C000ECC1FD /* SkyBoxShader.fsh */; };
+		88C4DAFB25B032A200ECC1FD /* ZYPSkyBoxEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DAFA25B032A200ECC1FD /* ZYPSkyBoxEffect.m */; };
+		88C4DB0725B52B8100ECC1FD /* ZYPParticleSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DB0625B52B8100ECC1FD /* ZYPParticleSystemViewController.m */; };
+		88C4DB0C25B52BBC00ECC1FD /* ZYPPointParticleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DB0B25B52BBC00ECC1FD /* ZYPPointParticleEffect.m */; };
+		88C4DB1025B52BE000ECC1FD /* ZYPVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DB0F25B52BE000ECC1FD /* ZYPVertexAttribArrayBuffer.m */; };
+		88C4DB1325B572FC00ECC1FD /* PointParticlesShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DB1225B572FC00ECC1FD /* PointParticlesShader.vsh */; };
+		88C4DB1625B5730D00ECC1FD /* PointParticlesShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DB1525B5730D00ECC1FD /* PointParticlesShader.fsh */; };
+		88C4DB1A25B5929E00ECC1FD /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DB1925B5929E00ECC1FD /* ball.png */; };
+		88C4DB2725B8116900ECC1FD /* ZYPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DB2625B8116800ECC1FD /* ZYPMainViewController.m */; };
 		88E53F1D25764AD7004C7DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E53F1C25764AD7004C7DC3 /* AppDelegate.m */; };
 		88E53F2025764AD7004C7DC3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E53F1F25764AD7004C7DC3 /* SceneDelegate.m */; };
 		88E53F2625764AD7004C7DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E53F2425764AD7004C7DC3 /* Main.storyboard */; };
@@ -54,6 +76,16 @@
 		884B506C2587625F00B2824A /* Erase.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Erase.caf; sourceTree = "<group>"; };
 		884B506D2587625F00B2824A /* shaderUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shaderUtil.c; sourceTree = "<group>"; };
 		884B506E2587625F00B2824A /* shaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaderUtil.h; sourceTree = "<group>"; };
+		885DB24825B93A2700FE486E /* ZYPImageColorTemperatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPImageColorTemperatureViewController.h; sourceTree = "<group>"; };
+		885DB24925B93A2700FE486E /* ZYPImageColorTemperatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPImageColorTemperatureViewController.m; sourceTree = "<group>"; };
+		885DB24C25B93A4000FE486E /* ZYPGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPGLView.h; sourceTree = "<group>"; };
+		885DB24D25B93A4000FE486E /* ZYPGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPGLView.m; sourceTree = "<group>"; };
+		885DB25025B93A5400FE486E /* ZYPContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPContainerView.h; sourceTree = "<group>"; };
+		885DB25125B93A5400FE486E /* ZYPContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPContainerView.m; sourceTree = "<group>"; };
+		885DB25425B9721600FE486E /* ImageVertexShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ImageVertexShader.vsh; sourceTree = "<group>"; };
+		885DB25825B9723A00FE486E /* ImageSaturation.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ImageSaturation.fsh; sourceTree = "<group>"; };
+		885DB25B25B9724D00FE486E /* ImageTemperature.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ImageTemperature.fsh; sourceTree = "<group>"; };
+		885DB25E25BAD37100FE486E /* Lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lena.png; sourceTree = "<group>"; };
 		88C4DAAC25AD544F00ECC1FD /* ZYPEarthAndModnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPEarthAndModnViewController.h; sourceTree = "<group>"; };
 		88C4DAAD25AD545000ECC1FD /* ZYPEarthAndModnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPEarthAndModnViewController.m; sourceTree = "<group>"; };
 		88C4DAB425AD554700ECC1FD /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
@@ -66,6 +98,28 @@
 		88C4DACE25AEF66F00ECC1FD /* ZYPLightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPLightViewController.m; sourceTree = "<group>"; };
 		88C4DAD125AEF75900ECC1FD /* sceneUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sceneUtil.h; sourceTree = "<group>"; };
 		88C4DAD225AEF75900ECC1FD /* sceneUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sceneUtil.m; sourceTree = "<group>"; };
+		88C4DADD25B0310800ECC1FD /* skybox2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox2.png; sourceTree = "<group>"; };
+		88C4DADE25B0310800ECC1FD /* skybox3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox3.png; sourceTree = "<group>"; };
+		88C4DADF25B0310800ECC1FD /* skybox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox1.png; sourceTree = "<group>"; };
+		88C4DAE525B0313600ECC1FD /* starship.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = starship.c; sourceTree = "<group>"; };
+		88C4DAE625B0313600ECC1FD /* starship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = starship.h; sourceTree = "<group>"; };
+		88C4DAE925B0317A00ECC1FD /* ZYPSkyBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPSkyBoxViewController.h; sourceTree = "<group>"; };
+		88C4DAEA25B0317A00ECC1FD /* ZYPSkyBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPSkyBoxViewController.m; sourceTree = "<group>"; };
+		88C4DAF225B031B300ECC1FD /* SkyBoxShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SkyBoxShader.vsh; sourceTree = "<group>"; };
+		88C4DAF525B031C000ECC1FD /* SkyBoxShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SkyBoxShader.fsh; sourceTree = "<group>"; };
+		88C4DAF925B032A200ECC1FD /* ZYPSkyBoxEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPSkyBoxEffect.h; sourceTree = "<group>"; };
+		88C4DAFA25B032A200ECC1FD /* ZYPSkyBoxEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPSkyBoxEffect.m; sourceTree = "<group>"; };
+		88C4DB0525B52B8000ECC1FD /* ZYPParticleSystemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPParticleSystemViewController.h; sourceTree = "<group>"; };
+		88C4DB0625B52B8100ECC1FD /* ZYPParticleSystemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPParticleSystemViewController.m; sourceTree = "<group>"; };
+		88C4DB0A25B52BBC00ECC1FD /* ZYPPointParticleEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPPointParticleEffect.h; sourceTree = "<group>"; };
+		88C4DB0B25B52BBC00ECC1FD /* ZYPPointParticleEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPPointParticleEffect.m; sourceTree = "<group>"; };
+		88C4DB0E25B52BE000ECC1FD /* ZYPVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		88C4DB0F25B52BE000ECC1FD /* ZYPVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		88C4DB1225B572FC00ECC1FD /* PointParticlesShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = PointParticlesShader.vsh; sourceTree = "<group>"; };
+		88C4DB1525B5730D00ECC1FD /* PointParticlesShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = PointParticlesShader.fsh; sourceTree = "<group>"; };
+		88C4DB1925B5929E00ECC1FD /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		88C4DB2525B8116800ECC1FD /* ZYPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPMainViewController.h; sourceTree = "<group>"; };
+		88C4DB2625B8116800ECC1FD /* ZYPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPMainViewController.m; sourceTree = "<group>"; };
 		88E53F1825764AD7004C7DC3 /* OpenGLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E53F1B25764AD7004C7DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88E53F1C25764AD7004C7DC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,7 +145,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		884B50652587625400B2824A /* lib */ = {
+		884B50652587625400B2824A /* res */ = {
 			isa = PBXGroup;
 			children = (
 				884B506A2587625F00B2824A /* abc.string */,
@@ -104,13 +158,39 @@
 				884B506D2587625F00B2824A /* shaderUtil.c */,
 				884B506E2587625F00B2824A /* shaderUtil.h */,
 			);
-			path = lib;
+			path = res;
+			sourceTree = "<group>";
+		};
+		885DB24625B939E200FE486E /* ImageColorTemperature */ = {
+			isa = PBXGroup;
+			children = (
+				885DB24725B939FA00FE486E /* res */,
+				885DB24825B93A2700FE486E /* ZYPImageColorTemperatureViewController.h */,
+				885DB24925B93A2700FE486E /* ZYPImageColorTemperatureViewController.m */,
+				885DB25025B93A5400FE486E /* ZYPContainerView.h */,
+				885DB25125B93A5400FE486E /* ZYPContainerView.m */,
+				885DB24C25B93A4000FE486E /* ZYPGLView.h */,
+				885DB24D25B93A4000FE486E /* ZYPGLView.m */,
+				885DB25425B9721600FE486E /* ImageVertexShader.vsh */,
+				885DB25825B9723A00FE486E /* ImageSaturation.fsh */,
+				885DB25B25B9724D00FE486E /* ImageTemperature.fsh */,
+			);
+			path = ImageColorTemperature;
+			sourceTree = "<group>";
+		};
+		885DB24725B939FA00FE486E /* res */ = {
+			isa = PBXGroup;
+			children = (
+				885DB25E25BAD37100FE486E /* Lena.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 		88C4DAAA25AD3DA200ECC1FD /* earthAndMoon */ = {
 			isa = PBXGroup;
 			children = (
-				88C4DAB825AD555900ECC1FD /* lib */,
+				88C4DAB325AD552B00ECC1FD /* Kit */,
+				88C4DAB825AD555900ECC1FD /* res */,
 				88C4DAAC25AD544F00ECC1FD /* ZYPEarthAndModnViewController.h */,
 				88C4DAAD25AD545000ECC1FD /* ZYPEarthAndModnViewController.m */,
 			);
@@ -126,7 +206,7 @@
 			path = Kit;
 			sourceTree = "<group>";
 		};
-		88C4DAB825AD555900ECC1FD /* lib */ = {
+		88C4DAB825AD555900ECC1FD /* res */ = {
 			isa = PBXGroup;
 			children = (
 				88C4DAB925AD556700ECC1FD /* Earth512x256.jpg */,
@@ -134,15 +214,15 @@
 				88C4DABC25AD556800ECC1FD /* sphere.h */,
 				88C4DABA25AD556800ECC1FD /* sphere.obj */,
 			);
-			path = lib;
+			path = res;
 			sourceTree = "<group>";
 		};
-		88C4DAC125AD558000ECC1FD /* lib */ = {
+		88C4DAC125AD558000ECC1FD /* res */ = {
 			isa = PBXGroup;
 			children = (
 				884B5051257E319B00B2824A /* cTest.jpg */,
 			);
-			path = lib;
+			path = res;
 			sourceTree = "<group>";
 		};
 		88C4DACC25AEF65200ECC1FD /* light */ = {
@@ -154,6 +234,56 @@
 				88C4DACE25AEF66F00ECC1FD /* ZYPLightViewController.m */,
 			);
 			path = light;
+			sourceTree = "<group>";
+		};
+		88C4DADB25B030C100ECC1FD /* SkyBox */ = {
+			isa = PBXGroup;
+			children = (
+				88C4DADC25B030F600ECC1FD /* res */,
+				88C4DAE525B0313600ECC1FD /* starship.c */,
+				88C4DAE625B0313600ECC1FD /* starship.h */,
+				88C4DAE925B0317A00ECC1FD /* ZYPSkyBoxViewController.h */,
+				88C4DAEA25B0317A00ECC1FD /* ZYPSkyBoxViewController.m */,
+				88C4DAF925B032A200ECC1FD /* ZYPSkyBoxEffect.h */,
+				88C4DAFA25B032A200ECC1FD /* ZYPSkyBoxEffect.m */,
+				88C4DAF225B031B300ECC1FD /* SkyBoxShader.vsh */,
+				88C4DAF525B031C000ECC1FD /* SkyBoxShader.fsh */,
+			);
+			path = SkyBox;
+			sourceTree = "<group>";
+		};
+		88C4DADC25B030F600ECC1FD /* res */ = {
+			isa = PBXGroup;
+			children = (
+				88C4DADF25B0310800ECC1FD /* skybox1.png */,
+				88C4DADD25B0310800ECC1FD /* skybox2.png */,
+				88C4DADE25B0310800ECC1FD /* skybox3.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		88C4DB0325B52AD400ECC1FD /* ParticleSystem */ = {
+			isa = PBXGroup;
+			children = (
+				88C4DB1825B5928E00ECC1FD /* res */,
+				88C4DB0525B52B8000ECC1FD /* ZYPParticleSystemViewController.h */,
+				88C4DB0625B52B8100ECC1FD /* ZYPParticleSystemViewController.m */,
+				88C4DB0A25B52BBC00ECC1FD /* ZYPPointParticleEffect.h */,
+				88C4DB0B25B52BBC00ECC1FD /* ZYPPointParticleEffect.m */,
+				88C4DB0E25B52BE000ECC1FD /* ZYPVertexAttribArrayBuffer.h */,
+				88C4DB0F25B52BE000ECC1FD /* ZYPVertexAttribArrayBuffer.m */,
+				88C4DB1225B572FC00ECC1FD /* PointParticlesShader.vsh */,
+				88C4DB1525B5730D00ECC1FD /* PointParticlesShader.fsh */,
+			);
+			path = ParticleSystem;
+			sourceTree = "<group>";
+		};
+		88C4DB1825B5928E00ECC1FD /* res */ = {
+			isa = PBXGroup;
+			children = (
+				88C4DB1925B5929E00ECC1FD /* ball.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 		88E53F0F25764AD7004C7DC3 = {
@@ -175,7 +305,9 @@
 		88E53F1A25764AD7004C7DC3 /* OpenGLDemo */ = {
 			isa = PBXGroup;
 			children = (
-				88C4DAB325AD552B00ECC1FD /* Kit */,
+				885DB24625B939E200FE486E /* ImageColorTemperature */,
+				88C4DB0325B52AD400ECC1FD /* ParticleSystem */,
+				88C4DADB25B030C100ECC1FD /* SkyBox */,
 				88C4DACC25AEF65200ECC1FD /* light */,
 				88C4DAAA25AD3DA200ECC1FD /* earthAndMoon */,
 				88E53F3525764B3E004C7DC3 /* pyramid */,
@@ -184,6 +316,8 @@
 				88E53F1C25764AD7004C7DC3 /* AppDelegate.m */,
 				88E53F1E25764AD7004C7DC3 /* SceneDelegate.h */,
 				88E53F1F25764AD7004C7DC3 /* SceneDelegate.m */,
+				88C4DB2525B8116800ECC1FD /* ZYPMainViewController.h */,
+				88C4DB2625B8116800ECC1FD /* ZYPMainViewController.m */,
 				88E53F2425764AD7004C7DC3 /* Main.storyboard */,
 				88E53F2725764ADB004C7DC3 /* Assets.xcassets */,
 				88E53F2925764ADB004C7DC3 /* LaunchScreen.storyboard */,
@@ -196,7 +330,7 @@
 		88E53F3425764AFD004C7DC3 /* drawingBoard */ = {
 			isa = PBXGroup;
 			children = (
-				884B50652587625400B2824A /* lib */,
+				884B50652587625400B2824A /* res */,
 				884B504E257E305E00B2824A /* ZYPDrawingBoardViewController.h */,
 				884B504F257E305E00B2824A /* ZYPDrawingBoardViewController.m */,
 				884B505625875D8700B2824A /* ZYPDrawingBoardView.h */,
@@ -212,7 +346,7 @@
 		88E53F3525764B3E004C7DC3 /* pyramid */ = {
 			isa = PBXGroup;
 			children = (
-				88C4DAC125AD558000ECC1FD /* lib */,
+				88C4DAC125AD558000ECC1FD /* res */,
 				88E53F3625764F6E004C7DC3 /* ZYPPyramidViewController.h */,
 				88E53F3725764F6E004C7DC3 /* ZYPPyramidViewController.m */,
 			);
@@ -279,10 +413,18 @@
 			files = (
 				884B506225875EEC00B2824A /* point.fsh in Resources */,
 				884B506F2587625F00B2824A /* Select.caf in Resources */,
+				88C4DAF325B031B300ECC1FD /* SkyBoxShader.vsh in Resources */,
 				88C4DABD25AD556800ECC1FD /* Earth512x256.jpg in Resources */,
+				885DB25C25B9724D00FE486E /* ImageTemperature.fsh in Resources */,
 				88E53F2B25764ADB004C7DC3 /* LaunchScreen.storyboard in Resources */,
+				88C4DB1325B572FC00ECC1FD /* PointParticlesShader.vsh in Resources */,
+				885DB25525B9721600FE486E /* ImageVertexShader.vsh in Resources */,
+				88C4DAE025B0310800ECC1FD /* skybox2.png in Resources */,
+				88C4DAF625B031C000ECC1FD /* SkyBoxShader.fsh in Resources */,
 				884B506425875F0300B2824A /* point.vsh in Resources */,
+				88C4DAE125B0310800ECC1FD /* skybox3.png in Resources */,
 				884B50722587625F00B2824A /* abc.string in Resources */,
+				88C4DB1625B5730D00ECC1FD /* PointParticlesShader.fsh in Resources */,
 				884B50712587625F00B2824A /* CC.string in Resources */,
 				88E53F2825764ADB004C7DC3 /* Assets.xcassets in Resources */,
 				88C4DABF25AD556800ECC1FD /* Moon256x128.png in Resources */,
@@ -290,6 +432,10 @@
 				88E53F2625764AD7004C7DC3 /* Main.storyboard in Resources */,
 				88C4DABE25AD556800ECC1FD /* sphere.obj in Resources */,
 				884B5052257E319B00B2824A /* cTest.jpg in Resources */,
+				88C4DAE225B0310800ECC1FD /* skybox1.png in Resources */,
+				885DB25F25BAD37100FE486E /* Lena.png in Resources */,
+				88C4DB1A25B5929E00ECC1FD /* ball.png in Resources */,
+				885DB25925B9723A00FE486E /* ImageSaturation.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +448,12 @@
 			files = (
 				88E53F1D25764AD7004C7DC3 /* AppDelegate.m in Sources */,
 				88C4DACF25AEF66F00ECC1FD /* ZYPLightViewController.m in Sources */,
+				88C4DB0725B52B8100ECC1FD /* ZYPParticleSystemViewController.m in Sources */,
 				88C4DAB625AD554700ECC1FD /* AGLKVertexAttribArrayBuffer.m in Sources */,
 				88E53F3825764F6E004C7DC3 /* ZYPPyramidViewController.m in Sources */,
+				88C4DB2725B8116900ECC1FD /* ZYPMainViewController.m in Sources */,
+				88C4DAEB25B0317A00ECC1FD /* ZYPSkyBoxViewController.m in Sources */,
+				885DB24A25B93A2700FE486E /* ZYPImageColorTemperatureViewController.m in Sources */,
 				88C4DAD325AEF75900ECC1FD /* sceneUtil.m in Sources */,
 				884B505825875D8700B2824A /* ZYPDrawingBoardView.m in Sources */,
 				88C4DAAE25AD545000ECC1FD /* ZYPEarthAndModnViewController.m in Sources */,
@@ -311,8 +461,14 @@
 				88E53F2E25764ADB004C7DC3 /* main.m in Sources */,
 				88E53F2025764AD7004C7DC3 /* SceneDelegate.m in Sources */,
 				884B5050257E305E00B2824A /* ZYPDrawingBoardViewController.m in Sources */,
+				88C4DB0C25B52BBC00ECC1FD /* ZYPPointParticleEffect.m in Sources */,
+				88C4DB1025B52BE000ECC1FD /* ZYPVertexAttribArrayBuffer.m in Sources */,
+				88C4DAFB25B032A200ECC1FD /* ZYPSkyBoxEffect.m in Sources */,
+				885DB25225B93A5400FE486E /* ZYPContainerView.m in Sources */,
 				884B50742587625F00B2824A /* shaderUtil.c in Sources */,
 				884B505B25875DA400B2824A /* ZYPDrawingBoardSoundEffect.m in Sources */,
+				88C4DAE725B0313600ECC1FD /* starship.c in Sources */,
+				885DB24E25B93A4000FE486E /* ZYPGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
