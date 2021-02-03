@@ -208,6 +208,64 @@
             </objects>
             <point key="canvasLocation" x="1637.68115942029" y="2851.3392857142858"/>
         </scene>
+        <!--OpenGLES WithGPU Image View Controller-->
+        <scene sceneID="XOG-ub-pON">
+            <objects>
+                <viewController id="38Q-eP-9cJ" customClass="ZYPOpenGLESWithGPUImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pRl-vU-pC7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ni5-ZL-xuT">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="Dx0-AT-L4i">
+                                <rect key="frame" x="8" y="796" width="398" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="JTU-rg-zFi"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="saturationAction:" destination="38Q-eP-9cJ" eventType="valueChanged" id="9uW-Ll-Wps"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3PC-Tc-nu2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3PC-Tc-nu2" firstAttribute="bottom" secondItem="Dx0-AT-L4i" secondAttribute="bottom" constant="37" id="1Vz-48-Wyx"/>
+                            <constraint firstItem="3PC-Tc-nu2" firstAttribute="trailing" secondItem="Dx0-AT-L4i" secondAttribute="trailing" constant="10" id="ODK-Vn-Ffr"/>
+                            <constraint firstItem="3PC-Tc-nu2" firstAttribute="bottom" secondItem="ni5-ZL-xuT" secondAttribute="bottom" id="VBx-9B-M5b"/>
+                            <constraint firstItem="ni5-ZL-xuT" firstAttribute="leading" secondItem="3PC-Tc-nu2" secondAttribute="leading" id="kxe-Dz-Tcu"/>
+                            <constraint firstItem="Dx0-AT-L4i" firstAttribute="leading" secondItem="3PC-Tc-nu2" secondAttribute="leading" constant="10" id="mrH-XE-ev2"/>
+                            <constraint firstItem="3PC-Tc-nu2" firstAttribute="trailing" secondItem="ni5-ZL-xuT" secondAttribute="trailing" id="qzB-fs-eMX"/>
+                            <constraint firstItem="ni5-ZL-xuT" firstAttribute="top" secondItem="3PC-Tc-nu2" secondAttribute="top" id="yWq-OP-UwG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Eur-c3-1uZ"/>
+                    <connections>
+                        <outlet property="targetImage" destination="ni5-ZL-xuT" id="lCk-2b-zpp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAr-of-7KE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1613" y="3491"/>
+        </scene>
+        <!--Record Video WithGPU Image View Controller-->
+        <scene sceneID="m6i-Jo-Dri">
+            <objects>
+                <viewController id="Xu0-ke-X0Q" customClass="ZYPRecordVideoWithGPUImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UpH-KY-0dn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8bX-Zf-epG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fws-N4-6hM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VsO-4m-8RS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1616" y="4131"/>
+        </scene>
         <!--天空盒子-->
         <scene sceneID="ORo-zD-bcJ">
             <objects>
@@ -534,6 +592,72 @@
                                         <connections>
                                             <segue destination="AUR-Ty-L0m" kind="push" id="RS6-aV-U3I"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" id="qR8-Yd-0Ba">
+                                        <rect key="frame" x="0.0" y="332.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qR8-Yd-0Ba" id="4nO-iW-B6Z">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPUImage图片添加滤镜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2V-Np-gGf">
+                                                    <rect key="frame" x="20" y="11.5" width="185.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="m2V-Np-gGf" firstAttribute="centerY" secondItem="4nO-iW-B6Z" secondAttribute="centerY" id="k3z-Of-jDC"/>
+                                                <constraint firstItem="m2V-Np-gGf" firstAttribute="leading" secondItem="4nO-iW-B6Z" secondAttribute="leading" constant="20" id="lDg-i6-YFr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="38Q-eP-9cJ" kind="push" id="WfK-hs-t8g"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" id="W8g-il-617">
+                                        <rect key="frame" x="0.0" y="376" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W8g-il-617" id="nTQ-9Y-8bM">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPUImage录制视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkY-ql-g0E">
+                                                    <rect key="frame" x="20" y="11.5" width="151" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="qkY-ql-g0E" firstAttribute="leading" secondItem="nTQ-9Y-8bM" secondAttribute="leading" constant="20" id="Vg5-bF-AJr"/>
+                                                <constraint firstItem="qkY-ql-g0E" firstAttribute="centerY" secondItem="nTQ-9Y-8bM" secondAttribute="centerY" id="rDk-2p-etL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Xu0-ke-X0Q" kind="push" id="8IC-3I-ssw"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" id="g5V-6q-MCK">
+                                        <rect key="frame" x="0.0" y="419.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g5V-6q-MCK" id="VTn-z0-e5X">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPUImage拍照添加滤镜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdE-En-Eii">
+                                                    <rect key="frame" x="20" y="11.5" width="185.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="wdE-En-Eii" firstAttribute="leading" secondItem="VTn-z0-e5X" secondAttribute="leading" constant="20" id="Dgf-K2-D28"/>
+                                                <constraint firstItem="wdE-En-Eii" firstAttribute="centerY" secondItem="VTn-z0-e5X" secondAttribute="centerY" id="Oho-97-exx"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>

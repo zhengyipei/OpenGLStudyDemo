@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123FC6C9EAEB7E8930538FF1 /* libPods-OpenGLDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBAAC997DC350149592DD4D /* libPods-OpenGLDemo.a */; };
 		884B5050257E305E00B2824A /* ZYPDrawingBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B504F257E305E00B2824A /* ZYPDrawingBoardViewController.m */; };
 		884B5052257E319B00B2824A /* cTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 884B5051257E319B00B2824A /* cTest.jpg */; };
 		884B505825875D8700B2824A /* ZYPDrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B505725875D8700B2824A /* ZYPDrawingBoardView.m */; };
@@ -26,6 +27,7 @@
 		885DB25925B9723A00FE486E /* ImageSaturation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 885DB25825B9723A00FE486E /* ImageSaturation.fsh */; };
 		885DB25C25B9724D00FE486E /* ImageTemperature.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 885DB25B25B9724D00FE486E /* ImageTemperature.fsh */; };
 		885DB25F25BAD37100FE486E /* Lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 885DB25E25BAD37100FE486E /* Lena.png */; };
+		8895517D25C7B3BB006634A6 /* ZYPTakePhotoWithGPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8895517C25C7B3BB006634A6 /* ZYPTakePhotoWithGPUImageViewController.m */; };
 		88C4DAAE25AD545000ECC1FD /* ZYPEarthAndModnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DAAD25AD545000ECC1FD /* ZYPEarthAndModnViewController.m */; };
 		88C4DAB625AD554700ECC1FD /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DAB525AD554700ECC1FD /* AGLKVertexAttribArrayBuffer.m */; };
 		88C4DABD25AD556800ECC1FD /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DAB925AD556700ECC1FD /* Earth512x256.jpg */; };
@@ -48,6 +50,10 @@
 		88C4DB1625B5730D00ECC1FD /* PointParticlesShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DB1525B5730D00ECC1FD /* PointParticlesShader.fsh */; };
 		88C4DB1A25B5929E00ECC1FD /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C4DB1925B5929E00ECC1FD /* ball.png */; };
 		88C4DB2725B8116900ECC1FD /* ZYPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DB2625B8116800ECC1FD /* ZYPMainViewController.m */; };
+		88D2B99F25C266B60074BA54 /* ZYPOpenGLESWithGPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D2B99E25C266B60074BA54 /* ZYPOpenGLESWithGPUImageViewController.m */; };
+		88D2B9A325C2694E0074BA54 /* ZYPRecordVideoWithGPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D2B9A225C2694E0074BA54 /* ZYPRecordVideoWithGPUImageViewController.m */; };
+		88D2B9A725C2696D0074BA54 /* ZYPVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D2B9A625C2696D0074BA54 /* ZYPVideoManager.m */; };
+		88D2B9AB25C26A280074BA54 /* ZYPGPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D2B9AA25C26A280074BA54 /* ZYPGPUImageBeautifyFilter.m */; };
 		88E53F1D25764AD7004C7DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E53F1C25764AD7004C7DC3 /* AppDelegate.m */; };
 		88E53F2025764AD7004C7DC3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E53F1F25764AD7004C7DC3 /* SceneDelegate.m */; };
 		88E53F2625764AD7004C7DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E53F2425764AD7004C7DC3 /* Main.storyboard */; };
@@ -58,6 +64,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54CD9527A126BD714F223327 /* Pods-OpenGLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLDemo.release.xcconfig"; path = "Target Support Files/Pods-OpenGLDemo/Pods-OpenGLDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6EBAAC997DC350149592DD4D /* libPods-OpenGLDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7656CBDD3883E97B27075685 /* Pods-OpenGLDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLDemo.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLDemo/Pods-OpenGLDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		884B504E257E305E00B2824A /* ZYPDrawingBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPDrawingBoardViewController.h; sourceTree = "<group>"; };
 		884B504F257E305E00B2824A /* ZYPDrawingBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPDrawingBoardViewController.m; sourceTree = "<group>"; };
 		884B5051257E319B00B2824A /* cTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cTest.jpg; sourceTree = "<group>"; };
@@ -86,6 +95,8 @@
 		885DB25825B9723A00FE486E /* ImageSaturation.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ImageSaturation.fsh; sourceTree = "<group>"; };
 		885DB25B25B9724D00FE486E /* ImageTemperature.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ImageTemperature.fsh; sourceTree = "<group>"; };
 		885DB25E25BAD37100FE486E /* Lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lena.png; sourceTree = "<group>"; };
+		8895517B25C7B3BB006634A6 /* ZYPTakePhotoWithGPUImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPTakePhotoWithGPUImageViewController.h; sourceTree = "<group>"; };
+		8895517C25C7B3BB006634A6 /* ZYPTakePhotoWithGPUImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPTakePhotoWithGPUImageViewController.m; sourceTree = "<group>"; };
 		88C4DAAC25AD544F00ECC1FD /* ZYPEarthAndModnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPEarthAndModnViewController.h; sourceTree = "<group>"; };
 		88C4DAAD25AD545000ECC1FD /* ZYPEarthAndModnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPEarthAndModnViewController.m; sourceTree = "<group>"; };
 		88C4DAB425AD554700ECC1FD /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
@@ -120,6 +131,14 @@
 		88C4DB1925B5929E00ECC1FD /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		88C4DB2525B8116800ECC1FD /* ZYPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPMainViewController.h; sourceTree = "<group>"; };
 		88C4DB2625B8116800ECC1FD /* ZYPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPMainViewController.m; sourceTree = "<group>"; };
+		88D2B99D25C266B60074BA54 /* ZYPOpenGLESWithGPUImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPOpenGLESWithGPUImageViewController.h; sourceTree = "<group>"; };
+		88D2B99E25C266B60074BA54 /* ZYPOpenGLESWithGPUImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPOpenGLESWithGPUImageViewController.m; sourceTree = "<group>"; };
+		88D2B9A125C2694E0074BA54 /* ZYPRecordVideoWithGPUImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPRecordVideoWithGPUImageViewController.h; sourceTree = "<group>"; };
+		88D2B9A225C2694E0074BA54 /* ZYPRecordVideoWithGPUImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPRecordVideoWithGPUImageViewController.m; sourceTree = "<group>"; };
+		88D2B9A525C2696D0074BA54 /* ZYPVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPVideoManager.h; sourceTree = "<group>"; };
+		88D2B9A625C2696D0074BA54 /* ZYPVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPVideoManager.m; sourceTree = "<group>"; };
+		88D2B9A925C26A280074BA54 /* ZYPGPUImageBeautifyFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPGPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		88D2B9AA25C26A280074BA54 /* ZYPGPUImageBeautifyFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPGPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 		88E53F1825764AD7004C7DC3 /* OpenGLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E53F1B25764AD7004C7DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88E53F1C25764AD7004C7DC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -139,12 +158,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123FC6C9EAEB7E8930538FF1 /* libPods-OpenGLDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B8839640A349BA32C544A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EBAAC997DC350149592DD4D /* libPods-OpenGLDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		830B7DFFC149A5A5916A8ECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7656CBDD3883E97B27075685 /* Pods-OpenGLDemo.debug.xcconfig */,
+				54CD9527A126BD714F223327 /* Pods-OpenGLDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		884B50652587625400B2824A /* res */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,11 +323,30 @@
 			path = res;
 			sourceTree = "<group>";
 		};
+		88D2B99C25C2665C0074BA54 /* OpenGLESWithGPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				88D2B99D25C266B60074BA54 /* ZYPOpenGLESWithGPUImageViewController.h */,
+				88D2B99E25C266B60074BA54 /* ZYPOpenGLESWithGPUImageViewController.m */,
+				8895517B25C7B3BB006634A6 /* ZYPTakePhotoWithGPUImageViewController.h */,
+				8895517C25C7B3BB006634A6 /* ZYPTakePhotoWithGPUImageViewController.m */,
+				88D2B9A125C2694E0074BA54 /* ZYPRecordVideoWithGPUImageViewController.h */,
+				88D2B9A225C2694E0074BA54 /* ZYPRecordVideoWithGPUImageViewController.m */,
+				88D2B9A525C2696D0074BA54 /* ZYPVideoManager.h */,
+				88D2B9A625C2696D0074BA54 /* ZYPVideoManager.m */,
+				88D2B9A925C26A280074BA54 /* ZYPGPUImageBeautifyFilter.h */,
+				88D2B9AA25C26A280074BA54 /* ZYPGPUImageBeautifyFilter.m */,
+			);
+			path = OpenGLESWithGPUImage;
+			sourceTree = "<group>";
+		};
 		88E53F0F25764AD7004C7DC3 = {
 			isa = PBXGroup;
 			children = (
 				88E53F1A25764AD7004C7DC3 /* OpenGLDemo */,
 				88E53F1925764AD7004C7DC3 /* Products */,
+				830B7DFFC149A5A5916A8ECB /* Pods */,
+				3B8839640A349BA32C544A39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -305,6 +361,7 @@
 		88E53F1A25764AD7004C7DC3 /* OpenGLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				88D2B99C25C2665C0074BA54 /* OpenGLESWithGPUImage */,
 				885DB24625B939E200FE486E /* ImageColorTemperature */,
 				88C4DB0325B52AD400ECC1FD /* ParticleSystem */,
 				88C4DADB25B030C100ECC1FD /* SkyBox */,
@@ -360,9 +417,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E53F3125764ADB004C7DC3 /* Build configuration list for PBXNativeTarget "OpenGLDemo" */;
 			buildPhases = (
+				B51EF939922D08FB26562D04 /* [CP] Check Pods Manifest.lock */,
 				88E53F1425764AD7004C7DC3 /* Sources */,
 				88E53F1525764AD7004C7DC3 /* Frameworks */,
 				88E53F1625764AD7004C7DC3 /* Resources */,
+				F8447F3CDBEC78B3B294F1A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -441,6 +500,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B51EF939922D08FB26562D04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8447F3CDBEC78B3B294F1A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenGLDemo/Pods-OpenGLDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenGLDemo/Pods-OpenGLDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenGLDemo/Pods-OpenGLDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88E53F1425764AD7004C7DC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -458,14 +559,19 @@
 				884B505825875D8700B2824A /* ZYPDrawingBoardView.m in Sources */,
 				88C4DAAE25AD545000ECC1FD /* ZYPEarthAndModnViewController.m in Sources */,
 				884B50702587625F00B2824A /* fileUtil.m in Sources */,
+				88D2B9A325C2694E0074BA54 /* ZYPRecordVideoWithGPUImageViewController.m in Sources */,
+				88D2B99F25C266B60074BA54 /* ZYPOpenGLESWithGPUImageViewController.m in Sources */,
 				88E53F2E25764ADB004C7DC3 /* main.m in Sources */,
 				88E53F2025764AD7004C7DC3 /* SceneDelegate.m in Sources */,
 				884B5050257E305E00B2824A /* ZYPDrawingBoardViewController.m in Sources */,
+				88D2B9A725C2696D0074BA54 /* ZYPVideoManager.m in Sources */,
 				88C4DB0C25B52BBC00ECC1FD /* ZYPPointParticleEffect.m in Sources */,
+				8895517D25C7B3BB006634A6 /* ZYPTakePhotoWithGPUImageViewController.m in Sources */,
 				88C4DB1025B52BE000ECC1FD /* ZYPVertexAttribArrayBuffer.m in Sources */,
 				88C4DAFB25B032A200ECC1FD /* ZYPSkyBoxEffect.m in Sources */,
 				885DB25225B93A5400FE486E /* ZYPContainerView.m in Sources */,
 				884B50742587625F00B2824A /* shaderUtil.c in Sources */,
+				88D2B9AB25C26A280074BA54 /* ZYPGPUImageBeautifyFilter.m in Sources */,
 				884B505B25875DA400B2824A /* ZYPDrawingBoardSoundEffect.m in Sources */,
 				88C4DAE725B0313600ECC1FD /* starship.c in Sources */,
 				885DB24E25B93A4000FE486E /* ZYPGLView.m in Sources */,
@@ -606,6 +712,7 @@
 		};
 		88E53F3225764ADB004C7DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7656CBDD3883E97B27075685 /* Pods-OpenGLDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -626,6 +733,7 @@
 		};
 		88E53F3325764ADB004C7DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CD9527A126BD714F223327 /* Pods-OpenGLDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
