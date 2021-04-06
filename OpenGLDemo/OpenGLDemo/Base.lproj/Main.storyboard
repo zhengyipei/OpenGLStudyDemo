@@ -23,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IX7-uV-b26" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="-772"/>
+            <point key="canvasLocation" x="2406" y="-1489"/>
         </scene>
         <!--光照-->
         <scene sceneID="IEG-BM-ijW">
@@ -103,7 +103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="imR-xq-vG2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="622"/>
+            <point key="canvasLocation" x="1612" y="-656"/>
         </scene>
         <!--粒子系统-->
         <scene sceneID="gD7-g7-77d">
@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JgX-sm-6r8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="2183"/>
+            <point key="canvasLocation" x="3206" y="-674"/>
         </scene>
         <!--图片色温饱和度-->
         <scene sceneID="hMI-s6-KPU">
@@ -206,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QNB-82-saf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1637.68115942029" y="2851.3392857142858"/>
+            <point key="canvasLocation" x="1612" y="146"/>
         </scene>
         <!--OpenGLES WithGPU Image View Controller-->
         <scene sceneID="XOG-ub-pON">
@@ -248,7 +248,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oAr-of-7KE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1613" y="3491"/>
+            <point key="canvasLocation" x="2406" y="146"/>
+        </scene>
+        <!--Take Photo WithGPU Image View Controller-->
+        <scene sceneID="BuO-YK-Pwd">
+            <objects>
+                <viewController id="xxN-hA-JZT" customClass="ZYPTakePhotoWithGPUImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TYB-Wo-625">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4Q1-Xm-4HR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2FD-nZ-owI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kml-Yk-gyB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1612" y="880"/>
         </scene>
         <!--Record Video WithGPU Image View Controller-->
         <scene sceneID="m6i-Jo-Dri">
@@ -264,7 +280,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VsO-4m-8RS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1616" y="4131"/>
+            <point key="canvasLocation" x="3206" y="146"/>
         </scene>
         <!--天空盒子-->
         <scene sceneID="ORo-zD-bcJ">
@@ -296,7 +312,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3c-tB-fqt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="1378"/>
+            <point key="canvasLocation" x="2406" y="-674"/>
         </scene>
         <!--Earth And Modn View Controller-->
         <scene sceneID="Mf9-8R-fMV">
@@ -326,7 +342,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZHr-Bg-nUr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="-72"/>
+            <point key="canvasLocation" x="3206" y="-1489"/>
         </scene>
         <!--Pyramid View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -373,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="-1488"/>
+            <point key="canvasLocation" x="1612" y="-1489"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="E5D-B9-PKn">
@@ -389,7 +405,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WRb-V4-HPR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1957" y="58"/>
+            <point key="canvasLocation" x="-1614" y="801"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="znC-9A-gmh">
@@ -419,7 +435,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOp-yh-fQD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2952" y="58"/>
+            <point key="canvasLocation" x="-2614" y="801"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="XqR-lC-Rdr">
@@ -658,6 +674,9 @@
                                                 <constraint firstItem="wdE-En-Eii" firstAttribute="centerY" secondItem="VTn-z0-e5X" secondAttribute="centerY" id="Oho-97-exx"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xxN-hA-JZT" kind="push" id="39W-0h-Hmr"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -671,7 +690,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WUD-tX-SZs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1259.4202898550725" y="57.589285714285708"/>
+            <point key="canvasLocation" x="-793" y="801"/>
         </scene>
     </scenes>
     <resources>
